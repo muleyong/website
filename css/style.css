@@ -314,7 +314,7 @@ nav .icon-burger .line {
 
 .landing .container .images .first-image img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 15px;
 	margin-left: 50px;
 }
@@ -327,7 +327,7 @@ nav .icon-burger .line {
     left: 10px;
     bottom: -20px;
     border-radius: 15px;
-    width: 120%;
+    width: 80%;
 	margin-left: 50px;
 }
 
@@ -414,6 +414,7 @@ nav .icon-burger .line {
 
     .landing .container .images .second-image {
         display: block;
+		flex-basis: 300px;
         position: absolute;
         right: -7vw;
         top: 50%;
@@ -443,6 +444,15 @@ nav .icon-burger .line {
     }
 
 	.landing .container .quote {
+		
+	max-width: 360px;
+    padding: 30px;
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: -20px;
+    border-radius: 15px;
+    width: 80%;
+		
 		left: -30px;
 	}
 	
