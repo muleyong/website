@@ -324,7 +324,7 @@ nav .icon-burger .line {
     padding: 30px;
     background-color: var(--secondary-color);
     position: absolute;
-    left: -30px;
+    left: 10px;
     bottom: -20px;
     border-radius: 15px;
     width: 120%;
@@ -442,6 +442,10 @@ nav .icon-burger .line {
         top: -100px;
     }
 
+	.landing .container .quote {
+		left: -30px;
+	}
+	
     .landing .container .quote p,
     .landing .container .quote span {
         font-size: 16px;
