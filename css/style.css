@@ -1139,7 +1139,6 @@ footer .logoo {
     width: 40%;
     height: 100%;
     display: flex;
-    align-items: center;
     font-size: 24px;
     color: #260048;
     justify-content: center;
@@ -1159,7 +1158,7 @@ footer .logoolink {
 	text-decoration: none;
 	margin: 0;
 	height: 100%;
-	display: flex;
+	display: block;
 	justify-content: space-around;
 	align-items: center;
 	color: #260048;
