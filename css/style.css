@@ -320,8 +320,8 @@ nav .icon-burger .line {
 }
 
 .landing .container .quote {
-    max-width: 420px;
-    padding: 27px;
+    max-width: 360px;
+    padding: 15px;
     background-color: var(--secondary-color);
     position: absolute;
     left: -10px;
@@ -344,8 +344,8 @@ nav .icon-burger .line {
 .landing .container .quote p,
 .landing .container .quote span {
     font-style: italic;
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1;
 }
 
 .landing .container .quote p {
