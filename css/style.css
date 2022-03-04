@@ -344,8 +344,8 @@ nav .icon-burger .line {
 .landing .container .quote p,
 .landing .container .quote span {
     font-style: italic;
-    font-size: 16px;
-    line-height: 1.92;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 .landing .container .quote p {
