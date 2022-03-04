@@ -320,11 +320,11 @@ nav .icon-burger .line {
 }
 
 .landing .container .quote {
-    max-width: 360px;
+    max-width: 420px;
     padding: 30px;
     background-color: var(--secondary-color);
     position: absolute;
-    left: 10px;
+    left: -10px;
     bottom: -20px;
     border-radius: 15px;
     width: 80%;
@@ -377,7 +377,7 @@ nav .icon-burger .line {
 	font-size: 16px;
     line-height: 1.92;
     color: var(--secondary-color);
-	width: 98%;
+	width: 100%;
 }
 
 .landing .container .info a {
@@ -518,9 +518,10 @@ nav .icon-burger .line {
 .phone-advertise .text-info {
     background-color: var(--secondary-color);
     color: var(--white-color);
-    padding: 25px 0 10px 50px;
+    padding: 25px 0 10px 20px;
     position: relative;
     flex-basis: 100%;
+	justify-content: center;
 }
 
 .phone-advertise .text-info h2 {
@@ -557,6 +558,8 @@ nav .icon-burger .line {
 		display: block;
 		position: relative;
 		left: 4%;
+		    padding: 25px 0 10px 50px;
+
     }
 
     .phone-advertise .image-phone {
@@ -767,7 +770,7 @@ nav .icon-burger .line {
 .phone-advertise2 .text-info {
     background-color: var(--secondary-color);
     color: var(--white-color);
-    padding: 25px 0 10px 50px;
+    padding: 25px 0 10px 20px;
     position: relative;
     flex-basis: 100%;
 }
@@ -804,6 +807,7 @@ nav .icon-burger .line {
     .phone-advertise2 .text-info {
         flex: 1;
         justify-content: flex-start;
+		    padding: 25px 0 10px 50px;
     }
 
     .phone-advertise2 .image-phone {
